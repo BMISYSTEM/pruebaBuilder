@@ -6,18 +6,17 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Registel",
   description: "Registel es una empresa de transporte",
-  
+  keywords: ["Registel", "Transporte", "Empresa"],
 };
+interface props {
+    children: React.ReactNode;
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children}: Readonly<props>) {
   return (
     <html lang="en">
       <body
-        className={` antialiased`}
+        className={` antialiased ` }
       >
         {children}
       </body>
