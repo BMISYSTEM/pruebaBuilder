@@ -1,10 +1,26 @@
+'use client'
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import logo from "./assets/logo.png";
 export const Navar = () => {
+  const [scrollPosition, setScrollPosition] = useState({ x: 0, y: 0 });
+  const handleScroll = () => {
+    setScrollPosition({
+      x: window.scrollX,
+      y: window.scrollY
+    });
+  };
+  useEffect(()=>{
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  },[])
+  console.log(scrollPosition)
   return (
-    <nav className="fixed w-full flex flex-row py-2 gap-5 px-20 z-50 ">
+    <nav className={`transition duration-150 ${scrollPosition.y > 600 ? 'bg-[#1f508f]/60 backdrop-blur-md' : null } fixed w-full flex flex-row py-2 gap-5 px-20 z-[99999] `}>
       <Image src={logo} alt="Logo Registel" width={100} height={25} />
       <ul className="w-full flex flex-row gap-5 justify-start border-b-2 border-white p-0 items-center">
         <li className="text-white font-semibold">
