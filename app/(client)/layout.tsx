@@ -18,7 +18,6 @@ const ClientLayout = ({children}:Readonly<props>) => {
     <section className='relative flex flex-row h-full m-0 p-0'>
             <section className='w-full flex flex-col'>
                 <Navar/>
-                <Header/>
                 <main className=''>
                     {children}
                 </main>

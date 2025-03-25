@@ -2,6 +2,7 @@
 import { BannerInformativo1 } from '@/components/bannerInfotmativo1/BannerInformativo1'
 import { BannerInicio } from '@/components/banners/BannerInicio'
 import { CasosDeExito } from '@/components/CasosDeExito/CasosDeExito'
+import { Header } from '@/components/header/Header'
 import { MetodosDePago } from '@/components/MetodosDePago/MetodosDePago'
 import ProductLayout from '@/components/Productos/ProductLayout'
 import { Regisbus } from '@/components/regisbus/Regisbus'
@@ -14,6 +15,7 @@ const page = () => {
  
   return (
     <>
+      <Header/>
       {/* productos y servicios */}
       <ProductLayout/>
       {/* banner informativo */}
