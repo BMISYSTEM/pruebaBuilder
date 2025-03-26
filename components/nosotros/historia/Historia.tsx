@@ -33,30 +33,7 @@ const brands = [
    "Perseverancia",
   ];
 export const Historia = () => {
-    const carouselRef = useRef(null);
-    useEffect(() => {
-        const carousel = carouselRef.current;
-    
-        if (!carousel) return;
-    
-        let scrollAmount = 0;
-    
-        const scrollCarousel = () => {
-          if (!carousel) return;
-    
-          scrollAmount += 1; // Velocidad de desplazamiento
-          if (scrollAmount >= carousel.scrollWidth / 2) {
-            scrollAmount = 0; // Reinicia el desplazamiento
-          }
-          carousel.scrollLeft = scrollAmount;
-    
-          requestAnimationFrame(scrollCarousel);
-        };
-    
-        const animationFrame = requestAnimationFrame(scrollCarousel);
-    
-        return () => cancelAnimationFrame(animationFrame);
-      }, []);
+   
   return (
     <>
       <section className=" h-auto   gap-5 relative flex flex-col ">

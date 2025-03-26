@@ -11,10 +11,7 @@ export const Footer = () => {
   return (
     <footer className='w-full h-auto flex flex-col items-center justify-center '>
       {/* mensaje */}
-      <div>
-        <p className='text-lg text-[#36508C] text-center'>Registel S.A.S. con más de dos décadas de experiencia en el mercado, ha desarrollado altos estándares de calidad para todos sus <br/>
-        procesos de diseño, producción, instalación y procesamiento de dispositivos de control de pasajeros y control de rutas.</p>
-      </div>
+     
       <div className='w-full bg-[#36508C] h-auto mt-20 pb-5 flex flex-row px-[8.5rem] pt-10'>
         <div className='w-full flex flex-col'>
           <div className='w-full flex flex-row '>
