@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BannerInicio } from '../banners/BannerInicio'
 const data = [
     {
-      imagen:"/banner.jpeg",
+      imagen:"/27.png",
       titulo:"Ingresa a nuestro FanPage @registel.co",
       descripcion:"y mantente actualizado de todo lo que hacemos",
       button:"Ir a Facebook",
@@ -31,7 +31,7 @@ const data = [
     },
   ]
 export const BannerInformativo1 = () => {
-    const [bannerVisible,setBannerVisible] = useState(1)
+    const [bannerVisible,setBannerVisible] = useState(0)
   return (
     <section className='w-full overflow-hidden  h-screen  flex items-center '>
     <div className=' absolute w-full flex-row  '>

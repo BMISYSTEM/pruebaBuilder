@@ -31,6 +31,7 @@ export const CasosDeExito = () => {
             establecimientos comerciales. Cuenta con más de 25 años de experiencia innovando y asesorando a sus clientes.
           </p>
         </div>
+       
       </section>
   )
 }
