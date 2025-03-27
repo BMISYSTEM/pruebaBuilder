@@ -3,12 +3,12 @@ import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
 import imagen1 from "./assets/imagen1.svg";
-import historia from "./assets/historia.svg";
-import fecha from "./assets/fecha.svg";
-import dosmil from "./assets/dosmil.svg";
+import historia from "./assets/historia.avif";
+import fecha from "./assets/1997.avif";
+import dosmil from "./assets/2000.avif";
 import imagen2 from "./assets/imagen2.svg";
 import experiencia from "./assets/experiencia.svg";
-import Mission from "./assets/Mission.svg";
+import Mission from "./assets/mision.avif";
 import vision from "./assets/vision.svg";
 const brands = [
    "Respeto",
@@ -44,6 +44,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={900}
               height={900}
+              loading="eager"
             />
           </div>
           <div className="w-full flex justify-end">
@@ -52,6 +53,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={300}
               height={300}
+               loading="eager"
             />
           </div>
           <div className="w-full h-full  flex items-end justify-end">
@@ -60,6 +62,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={500}
               height={500}
+               loading="eager"
             />
           </div>
         </div>
@@ -71,6 +74,7 @@ export const Historia = () => {
               alt="Imagen de la historia de Registel"
               width={300}
               height={300}
+               loading="eager"
             />
           </div>
           {/* texto */}
@@ -87,7 +91,7 @@ export const Historia = () => {
               electrica y electronica identifico el problema de la evasion en el
               transporte publico
             </p>
-            <p className="text-xl font-bold text-[#BCABD1]">
+            <p className="text-xl font-bold text-[#BCABD1] drop-shadow-xl">
               Con dos años de estudios en ingenieria electrica, se percato de un
               problema constanteÑ la alta evasion en el transporte publico.
             </p>
@@ -106,6 +110,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={5000}
               height={5000}
+               loading="lazy"
             />
           </div>
         </div>
@@ -141,6 +146,7 @@ export const Historia = () => {
               alt="Imagen de la historia de Registel"
               width={300}
               height={300}
+               loading="lazy"
             />
           </div>
         </div>
@@ -154,6 +160,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={800}
               height={800}
+               loading="lazy"
             />
           </div>
         </div>
@@ -178,6 +185,7 @@ export const Historia = () => {
               alt="Historia de Registel"
               width={800}
               height={800}
+               loading="lazy"
             />
           </div>
         </div>
