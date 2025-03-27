@@ -82,7 +82,7 @@ export const Navar = () => {
                   <Link href={'/nosotros'} className="transition-all hover:border-[#1f508f]">
                     <p className="text-[#1f508f] text-sm">RegisFlota</p>
                   </Link> 
-                  <Link href={'/nosotros'} className=" transition-all hover:border-[#1f508f]">
+                  <Link href={'/nosotros'} className="border-b border-white transition-all hover:border-[#1f508f]">
                     <p className="text-[#1f508f] text-sm">RegisNose</p>
                   </Link> 
               </div>
@@ -94,7 +94,7 @@ export const Navar = () => {
             null
           }
         </li>
-        <li className={`${page === "/" ? "text-white " : "text-[#1f508f]"} font-semibold`}>
+        <li className={`${page === "/" ? "text-white " : page === "/contactenos" ? "bg-[#1f508f] text-white py-1 px-3 rounded-sm" : "text-[#1f508f]" } font-semibold`}>
             <Link href={'/contactenos'}>Contactenos</Link>
         </li>
       </ul>
