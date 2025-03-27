@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     title: "Registel",
     description: "Registel es una empresa de transporte",
     keywords: ["Registel", "Transporte", "Empresa"],
+    icons:'/logo.png'
   };
 interface props{
     children: React.ReactNode
