@@ -58,32 +58,32 @@ export const Navar = () => {
             className={` ${page === "/" ?  scrollPosition.y > 600 ? "bg-white" : " bg-white/50 " : "bg-white"} absolute w-96 h-auto  rounded-xl shadow-2xl   backdrop-blur-md p-2 flex flex-row gap-1 z-[999999999]`}>
               <div className="w-full  flex flex-col px-1 py-2">
                 <p className="text-xl text-[#1f508f]">Productos</p>
-                <Link href={'/nosotros'} className="  transition-all hover:border-[#1f508f]">
+                <Link href={'/regisdata'} className="  transition-all hover:text-[#1f508f]">
+                  <p className="text-[#1f508f] text-sm">Regisdata</p>
+                </Link> 
+                <Link href={'/regisruta'} className=" transition-all hover:text-[#1f508f]">
+                  <p className="text-[#1f508f] text-sm">Regisruta</p>
+                </Link> 
+                <Link href={'/regiscenter'} className="  transition-all hover:text-[#1f508f]">
+                  <p className="text-[#1f508f] text-sm">Regiscenter</p>
+                </Link> 
+                <Link href={'/regisbus'} className=" transition-all hover:text-[#1f508f]">
                   <p className="text-[#1f508f] text-sm">Regisbus</p>
-                </Link> 
-                <Link href={'/nosotros'} className=" transition-all hover:border-[#1f508f]">
-                  <p className="text-[#1f508f] text-sm">RegisCamara</p>
-                </Link> 
-                <Link href={'/nosotros'} className="  transition-all hover:border-[#1f508f]">
-                  <p className="text-[#1f508f] text-sm">RegisFlota</p>
-                </Link> 
-                <Link href={'/nosotros'} className=" transition-all hover:border-[#1f508f]">
-                  <p className="text-[#1f508f] text-sm">RegisNose</p>
                 </Link> 
               </div>
               <div className="w-full  flex flex-col px-1 py-2">
                 <p className="text-xl text-[#1f508f]">Servicios</p>
-                  <Link href={'/nosotros'} className="transition-all hover:border-[#1f508f]">
-                    <p className="text-[#1f508f] text-sm">Regisbus</p>
+                  <Link href={'/cst'} className="transition-all hover:text-[#1f508f]">
+                    <p className="text-[#1f508f] text-sm">CST</p>
                   </Link> 
-                  <Link href={'/nosotros'} className=" transition-all hover:border-[#1f508f]">
-                    <p className="text-[#1f508f] text-sm">RegisCamara</p>
+                  <Link href={'/videobus'} className=" transition-all hover:text-[#1f508f]">
+                    <p className="text-[#1f508f] text-sm">Videobus</p>
                   </Link> 
-                  <Link href={'/nosotros'} className="transition-all hover:border-[#1f508f]">
-                    <p className="text-[#1f508f] text-sm">RegisFlota</p>
+                  <Link href={'/regischeck'} className="transition-all hover:text-[#1f508f]">
+                    <p className="text-[#1f508f] text-sm">Regischek</p>
                   </Link> 
-                  <Link href={'/nosotros'} className="border-b border-white transition-all hover:border-[#1f508f]">
-                    <p className="text-[#1f508f] text-sm">RegisNose</p>
+                  <Link href={'/siconder'} className=" transition-all hover:text-[#1f508f]">
+                    <p className="text-[#1f508f] text-sm">Siconder</p>
                   </Link> 
               </div>
 

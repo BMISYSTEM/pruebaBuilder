@@ -19,7 +19,7 @@ const page = () => {
          <FormularioContacto/>
         </div>
       </div>
-     <MapRegistel/>
+      <MapRegistel/>
     </section>
   )
 }
