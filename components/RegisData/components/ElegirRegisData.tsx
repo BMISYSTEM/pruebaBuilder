@@ -90,9 +90,9 @@ export const ElegirRegisData = () => {
             <p>Video </p>
         </section>
         {/* modulo de reporte */}
-        <section className='w-full  h-auto flex  px-[8.5rem] pt-20 '>
-            <div className='w-full h-full flex flex-row gap-2  '>
-                <div className='w-2/3 flex flex-col mt-20'>
+        <section className='w-full  h-auto flex  md:px-[8.5rem] px-2 pt-20 '>
+            <div className='w-full h-full flex md:flex-row flex-col-reverse gap-2  '>
+                <div className='md:w-2/3 w-full flex flex-col mt-20'>
                     <div className=' mr-[-3rem] z-30'>
                         <Image src={img8} alt='imagen de modulo de reportes' width={600} height={600} className=''/>
                     </div>

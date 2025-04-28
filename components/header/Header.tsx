@@ -1,8 +1,10 @@
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
 import blog from './assets/blogs.png'
 import inicio from './assets/principio.png'
 export const Header = () => {
+   
   return (
     <header className='w-full h-screen  relative '>
         <div className='absolute w-full h-full bg-[#36508C]/50 z-40'>
