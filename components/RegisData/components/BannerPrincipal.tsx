@@ -25,7 +25,7 @@ const BannerPrincipal = () => {
                 <Image alt='imagen de reguisdata' src={img1} width={500} height={500} />
             </div>
             <div className='absolute  mt-[70%] ml-[12rem] '>
-                <Image alt='imagen de reguisdata' src={img2} width={300} height={300} className='animate-pulse' />
+                <Image alt='imagen de reguisdata' src={img2} width={300} height={300} className='animate-bounce' />
             </div>
         </div>
 

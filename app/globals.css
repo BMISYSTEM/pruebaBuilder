@@ -45,7 +45,7 @@ body {
 .animateViewPort {
   animation: apper linear;
   animation-timeline: view();
-  animation-range: entry 20% contain 10%;
+  animation-range: entry 50% contain 40%;
   animation-fill-mode: both;
 }
 
