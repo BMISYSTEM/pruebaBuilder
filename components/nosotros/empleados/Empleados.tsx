@@ -6,9 +6,9 @@ import 'animate.css'
 export const Empleados = () => {
     const [textoComplet,setTextoComplet] = useState(false);
   return (
-    <section className="w-full flex flex-row gap-5 px-[8.5rem]">
+    <section className="w-full flex flex-row justify-center gap-5 px-[8.5rem]">
         {/* foto */}
-        <div className='w-full flex flex-row '>
+        <div className='w-[80rem] flex flex-row '>
             <div className='w-full flex flex-row items-center justify-end text-white ' >
                 <button title='izquierda' className='w-10 h-10 cursor-pointer bg-[#C8E4F1] rounded-full flex items-center justify-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

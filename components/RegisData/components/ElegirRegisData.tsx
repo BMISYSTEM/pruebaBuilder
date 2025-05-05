@@ -80,7 +80,7 @@ export const ElegirRegisData = () => {
           </DivAnimateRigth >
         </div>
       </section>
-      <section className="w-full px-[8.5rem] flex flex-row gap-5  items-center relative ">
+      <section className="w-full px-[8.5rem] flex flex-row gap-5  items-center justify-center relative ">
         <div className="absolute left-[-90] bottom-[-120]">
           <Image
             src={img5}
@@ -90,7 +90,7 @@ export const ElegirRegisData = () => {
             className="animate-pulse"
           />
         </div>
-        <DivAnimateLefth className="w-full h-full flex flex-col gap-5">
+        <DivAnimateLefth className="w-[30rem] h-full flex flex-col gap-5 ">
           <Image
             alt="Imagen de regisdata celular con varias pantllas flotando"
             src={img4}
@@ -99,7 +99,7 @@ export const ElegirRegisData = () => {
             className="z-50"
           />
         </DivAnimateLefth>
-        <div className="w-full h-full flex flex-col gap-5 ">
+        <div className="w-[30rem] h-full flex flex-col gap-5 ">
           <DivAnimateRigth className="w-full flex flex-col ">
             <h3 className="py-1 px-4 rounded-xl bg-[#9db1ca] text-white font-light text-xl">
               Monitoreo en Tiempo Real:
@@ -129,8 +129,8 @@ export const ElegirRegisData = () => {
         </div>
       </section>
       {/* para quien es ideal  */}
-      <section className="w-full h-screen flex flex-row gap-2 px-[8.5rem] overflow-hidden items-center ">
-        <DivAnimateLefth porcentajeDiv={0.5} className="w-full h-96 flex flex-col  ">
+      <section className="w-full h-screen flex flex-row gap-2 px-[8.5rem] overflow-hidden items-center justify-center ">
+        <DivAnimateLefth porcentajeDiv={0.5} className="w-[30rem] h-96 flex flex-col  ">
           <Image
             src={img6}
             alt="Imagen de computador mostrando pantallas flotantes"
@@ -138,7 +138,7 @@ export const ElegirRegisData = () => {
             height={500}
           />
         </DivAnimateLefth>
-        <div className="w-full flex flex-col relative ">
+        <div className="w-[30rem] flex flex-col relative ">
           <div className="z-30">
             <h4 className="text-3xl  text-[#1f4e85] font-extrabold">
               ¿Para Quién Es Ideal Regisdata?
@@ -185,9 +185,9 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de reporte */}
       <section className="w-full  h-auto flex  md:px-[8.5rem] px-2 pt-20 ">
-        <div className="w-full h-full flex md:flex-row flex-col-reverse gap-2  ">
-          <div className="md:w-2/3 w-full flex flex-col mt-20">
-            <DivAnimateLefth porcentajeDiv={1} className=" mr-[-3rem] z-30">
+        <div className="w-full h-full flex md:flex-row justify-center flex-col-reverse gap-2  ">
+          <div className="md:w-[40rem] w-full flex flex-col mt-20">
+            <DivAnimateLefth  className=" right-2 z-30">
               <Image
                 src={img8}
                 alt="imagen de modulo de reportes"
@@ -238,7 +238,7 @@ export const ElegirRegisData = () => {
               </p>
             </DivAnimateLefth>
           </div>
-          <DivAnimateRigth className="w-full h-full flex flex-col gap-5">
+          <DivAnimateRigth className="w-[40rem] h-full flex flex-col gap-5">
             <h5 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Reportes
             </h5>
@@ -283,8 +283,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de rastreo */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateLefth className="w-2/3 flex flex-col mt-20">
+        <div className="w-full h-full flex flex-row gap-2 justify-center ">
+          <DivAnimateLefth className="w-[30rem] flex flex-col mt-20">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={rastreo1}
@@ -295,7 +295,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateLefth>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Rastreo
             </h6>
@@ -341,8 +341,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* Modulo de liquidacion */}
       <section className="w-full  h-auto flex  px-[8.5rem]  ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateLefth className="w-2/3 flex flex-col mt-20">
+        <div className="w-full h-full flex flex-row gap-2 justify-center  ">
+          <DivAnimateLefth className="w-[40rem] flex flex-col mt-20">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={liquidacion}
@@ -353,7 +353,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateLefth>
-          <DivAnimateRigth className="w-full h-auto flex flex-col gap-5">
+          <DivAnimateRigth className="w-[40rem] h-auto flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Liquidacion
             </h6>
@@ -386,8 +386,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de auditorias */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateLefth className="w-2/3 flex flex-col mt-20">
+        <div className="w-full h-full flex flex-row gap-2 justify-center  ">
+          <DivAnimateLefth className="w-[40rem] flex flex-col mt-20">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={auditorias}
@@ -398,7 +398,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateLefth>
-          <DivAnimateRigth className="w-full h-full flex flex-col gap-5">
+          <DivAnimateRigth className="w-[40rem] h-full flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Auditorias
             </h6>
@@ -420,8 +420,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de usuarios */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateLefth className="w-2/3 flex flex-col mt-20">
+        <div className="w-full h-full flex flex-row gap-2 justify-center  ">
+          <DivAnimateLefth className="w-[40rem] flex flex-col mt-20">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={usuario}
@@ -432,7 +432,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateLefth>
-          <DivAnimateRigth className="w-full h-full flex flex-col gap-5">
+          <DivAnimateRigth className="w-[40rem] h-full flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Usuario
             </h6>
@@ -455,8 +455,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* Modulo de Indicadores */}
       <section className="w-full  h-auto flex  px-[8.5rem]  pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateLefth className="w-2/3 flex flex-col mt-20 ">
+        <div className="w-full h-full flex flex-row gap-2 justify-center ">
+          <DivAnimateLefth className="w-[40rem] flex flex-col mt-20 ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={indicadores}
@@ -467,7 +467,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateLefth>
-          <div className="w-full h-auto flex flex-col gap-5">
+          <div className="w-[40rem] h-auto flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Indicadores
             </h6>
@@ -558,8 +558,8 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de registradora */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
-          <DivAnimateRigth className="w-2/3 flex flex-col mt-20 ">
+        <div className="w-full h-full flex flex-row gap-2 justify-center ">
+          <DivAnimateRigth className="w-[40rem] flex flex-col mt-20 ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={registradora}
@@ -570,7 +570,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateRigth>
-          <DivAnimateLefth className="w-full h-full flex flex-col gap-5">
+          <DivAnimateLefth className="w-[40rem] h-full flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Modulo Registradora
             </h6>
@@ -592,9 +592,9 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulo de Conﬁguración */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  ">
+        <div className="w-full h-full flex flex-row gap-2 justify-center ">
 
-          <DivAnimateRigth className="w-2/3 flex flex-col  ">
+          <DivAnimateRigth className="w-[40rem] flex flex-col  ">
             <div className=" mr-[-2rem] z-30  flex justify-end">
               <Image
                 src={configuracion}
@@ -605,7 +605,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </DivAnimateRigth>
-          <DivAnimateLefth className="w-full h-full flex flex-col gap-5  ">
+          <DivAnimateLefth className="w-[40rem] h-full flex flex-col gap-5  ">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
               Conﬁguración
             </h6>
@@ -673,8 +673,8 @@ export const ElegirRegisData = () => {
       {/* modulos peque */}
       <section className="w-full h-auto flex flex-col gap-5 pt-20">
       <section className="w-full  flex flex-col gap-5  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  items-center  ">
-          <div className="w-2/3 flex flex-col ">
+        <div className="w-full h-full flex flex-row gap-2  items-center justify-center  ">
+          <div className="w-[40rem] flex flex-col ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={inicio}
@@ -685,7 +685,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </div>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <div>
               <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                 <h6 className="text-3xl font-extrabold text-[#1f4e85]">
@@ -700,8 +700,8 @@ export const ElegirRegisData = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 ">
-          <div className="w-2/3 flex flex-col ">
+        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+          <div className="w-[40rem] flex flex-col ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={reportes}
@@ -712,7 +712,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </div>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <div>
               <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                 <h6 className="text-3xl font-extrabold text-[#1f4e85]">
@@ -728,8 +728,8 @@ export const ElegirRegisData = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 ">
-          <div className="w-2/3 flex flex-col ">
+        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+          <div className="w-[40rem] flex flex-col ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={graficos}
@@ -740,7 +740,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </div>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <div>
               <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                 <h6 className="text-3xl font-extrabold text-[#1f4e85]">
@@ -758,8 +758,8 @@ export const ElegirRegisData = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 ">
-          <div className="w-2/3 flex flex-col ">
+        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+          <div className="w-[40rem] flex flex-col ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={usuarios}
@@ -770,7 +770,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </div>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <div>
               <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                 <h6 className="text-3xl font-extrabold text-[#1f4e85]">
@@ -784,8 +784,8 @@ export const ElegirRegisData = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 ">
-          <div className="w-2/3 flex flex-col ">
+        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center">
+          <div className="w-[40rem] flex flex-col ">
             <div className=" mr-[-3rem] z-30  flex justify-end">
               <Image
                 src={dispositivos}
@@ -796,7 +796,7 @@ export const ElegirRegisData = () => {
               />
             </div>
           </div>
-          <div className="w-full h-full flex flex-col gap-5">
+          <div className="w-[40rem] h-full flex flex-col gap-5">
             <div>
               <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                 <h6 className="text-3xl font-extrabold text-[#1f4e85]">

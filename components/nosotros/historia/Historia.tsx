@@ -66,9 +66,9 @@ export const Historia = () => {
             />
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem] pt-60 items-center">
+        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem] pt-60 items-center justify-center">
           {/* imagen */}
-          <div className="w-full h-full flex flex-col gap-4 items-center justify-center  z-40">
+          <div className="w-[30rem] h-full flex flex-col gap-4 items-center justify-center  z-40">
             <Image
               src={imagen1}
               alt="Imagen de la historia de Registel"
@@ -78,7 +78,7 @@ export const Historia = () => {
             />
           </div>
           {/* texto */}
-          <div className="w-full h-full flex flex-col gap-20 z-40">
+          <div className="w-[30rem] h-full flex flex-col gap-20 z-40">
             <p className="text-xl font-bold text-[#36508C]">
               En 1997, Registel surgio como respuesta a la creciente necesidad
               en la industria del transporte. La empresa de transporte Coletivo
@@ -102,7 +102,7 @@ export const Historia = () => {
           </div>
         </div>
       </section>
-      <section className=" h-auto   gap-5 relative flex flex-col ">
+      <section className=" h-auto   gap-5 relative flex flex-col  ">
         <div className=" w-full h-full flex flex-col absolute  items-center mt-20 px-[8.5rem]">
           <div className="h-full flex items-end">
             <Image
@@ -114,9 +114,9 @@ export const Historia = () => {
             />
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem]  items-center">
+        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem]  items-center justify-center">
           {/* texto */}
-          <div className="w-full h-full flex flex-col gap-20 z-40 mt-20">
+          <div className="w-[30rem] h-full flex flex-col gap-20 z-40 mt-20">
             <p className="text-xl font-bold text-[#36508C]">
                 Desde entonces, nos hemos consolidado como
                 líderes en soluciones tecnológicas para la
@@ -140,7 +140,7 @@ export const Historia = () => {
             </p>
           </div>
           {/* imagen */}
-          <div className="w-full h-full flex flex-col gap-4 items-center justify-center  z-40">
+          <div className="w-[30rem] h-full flex flex-col gap-4 items-center justify-center  z-40">
             <Image
               src={imagen2}
               alt="Imagen de la historia de Registel"
@@ -152,7 +152,7 @@ export const Historia = () => {
         </div>
       </section>
       {/* mision */}
-      <section className=" h-auto   gap-5 relative flex flex-col mt-10 ">
+      <section className=" h-auto   gap-5 relative flex flex-col mt-10 justify-center items-center ">
         <div className=" w-full h-full flex flex-col absolute   px-[8.5rem]">
           <div className="h-full flex items-start">
             <Image
@@ -164,7 +164,7 @@ export const Historia = () => {
             />
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem]  items-center">
+        <div className="w-[80rem] h-full flex flex-row gap-5 px-[8.5rem]  items-center justify-center">
           {/* texto */}
           <div className="w-full h-full flex flex-col gap-20 z-40 mt-40">
             <p className="text-xl font-bold text-[#36508C]">
@@ -177,7 +177,7 @@ export const Historia = () => {
         </div>
       </section>
       {/* vision */}
-      <section className=" h-auto   gap-5 relative flex flex-col mt-10 ">
+      <section className=" h-auto  gap-5 relative flex flex-col items-center mt-10 ">
         <div className=" w-full h-full flex flex-col absolute   px-[8.5rem]">
           <div className="h-full flex items-start">
             <Image
@@ -189,7 +189,7 @@ export const Historia = () => {
             />
           </div>
         </div>
-        <div className="w-full h-full flex flex-row gap-5 px-[8.5rem]  items-center">
+        <div className="w-[80rem] h-full flex flex-row gap-5 px-[8.5rem]  items-center">
           {/* texto */}
           <div className="w-full h-full flex flex-col gap-20 z-40 mt-40">
             <p className="text-xl font-bold text-[#36508C]">

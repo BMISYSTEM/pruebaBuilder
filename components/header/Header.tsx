@@ -10,8 +10,8 @@ export const Header = () => {
         <div className='absolute w-full h-full bg-[#36508C]/50 z-40'>
 
         </div>
-        <div className='w-full h-screen text-star flex flex-col justify-center gap-2 absolute px-[8.5rem] '>
-            <div className='w-1/3 h-full flex flex-col justify-center  gap-14 '>
+        <div className='w-full h-screen text-star  flex flex-row justify-center items-center gap-2 absolute px-[8.5rem] '>
+            <div className='w-[30rem]  h-full flex flex-col justify-center  gap-14 '>
                 <div className='flex flex-col gap-2 z-40'>
                     <h1 className='text-4xl font-bold text-white'>Registel</h1>
                     <p className='text-white font-semibold '>
@@ -36,6 +36,9 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
+                
+            </div>
+            <div className='w-[30rem] h-dull z-50 bg-blue-500 '>
                 
             </div>
         </div>

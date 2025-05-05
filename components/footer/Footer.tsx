@@ -13,8 +13,8 @@ export const Footer = () => {
       {/* mensaje */}
      
       <div className='w-full bg-[#36508C] h-auto mt-20 pb-5 flex flex-row px-[8.5rem] pt-10'>
-        <div className='w-full flex flex-col'>
-          <div className='w-full flex flex-row '>
+        <div className='w-full flex flex-col items-center '>
+          <div className='w-[30rem] flex flex-row justify-center '>
             <div className='flex flex-col gap-2 px-5 border-r-2 border-white'>
               <Link href={'/'}>
                 <p className='text-white text-lg font-light'>RegisBus</p>
@@ -34,17 +34,17 @@ export const Footer = () => {
               <p className='text-white font-light text-lg'>gerencia@registelcolombia.com</p>
             </div>
           </div>
-          <div className='w-full mt-10 px-5'>
+          <div className='w-[30rem] mt-10 px-5'>
             <p className='text-xs text-white font-light'>2023 Registel S.A.S. - Todos los derechos reservados <br/>
             Este sitio web ha sido creado y es administrado por Registel.co</p>
           </div>
         </div>
-        <div className='w-full flex flex-col  items-end'>
+        <div className='w-full flex flex-col  items-center'>
           <p className='text-lg text-white font-light p-0 mt-0'>Carrera 8a A No. 34 - 25</p>
           <p className='text-lg text-white font-light p-0 mt-0'>Cali, Colombia</p>
           <p className='text-lg text-white font-light p-0 mt-0'>Phone: (572) 441-5840</p>
           <p className='text-lg text-white font-light p-0 mt-0'>Fax: (572) 371-9131</p>
-          <div className='w-full flex flex-row gap-2 justify-end mt-5'>
+          <div className='w-full flex flex-row gap-2 justify-center mt-5'>
             <Image src={youtube} alt='youtube' width={40} height={40}/>
             <Image src={facebook} alt='facebook' width={40} height={40}/>
             <Image src={instagram} alt='instagram' width={40} height={40}/>
