@@ -58,23 +58,23 @@ export const ElegirRegisData = () => {
           hasta el monitoreo de accesos en espacios de alto tráfico. Nuestra
           plataforma es fácil de usar y se adapta a tus necesidades
         </p>
-        <div className="w-full h-full flex flex-row gap-4 justify-center items-center">
+        <div className="w-full h-full flex flex-row  justify-center items-center ">
           <motion.div 
              initial={{ x: -100,opacity:0 }}
              whileInView={{ opacity: 1, y: 0,x: 0}}
              viewport={{ once: false, amount: 0.2 }}
              transition={{ duration: 0.6 }}
-            className="w-full flex gap-2 justify-end ">
+            className="w-full flex gap-2 items-end justify-end ">
             <Image
               alt="Imagen de computador"
               src={img3}
               width={500}
               height={500}
-              className=""
+              className="w-96 object-contain"
             />
           </motion.div>
-          <DivAnimateRigth porcentajeDiv={0.2}  className="w-2/3 h-full flex justify-start items-center  mb-30 ml-[-10rem]">
-            <p className="text-xl font-bold text-[#bba4cb] animatexView">
+          <DivAnimateRigth porcentajeDiv={0.2}  className="w-full h-full flex justify-start items-center  ">
+            <p className="text-xl font-bold text-[#bba4cb] animatexView mb-30">
               SISTEMA ADAPTABLE <br />A DIFERENTES DISPOSITIVOS
             </p>
           </DivAnimateRigth >
