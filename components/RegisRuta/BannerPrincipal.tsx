@@ -35,13 +35,13 @@ export const BannerPrincipal = () => {
                 </button>
             </div>
             <div className='w-full '>
-                <Image src={mapa} width={1000} height={1000} alt='mapa' className='w-full h-full object-contain'/>
+                <Image src={mapa} width={1920} height={1000} alt='mapa' className='w-full h-full object-contain'/>
             </div>
         </section>
         {/* regisruta */}
         <section className='w-full h-screen flex flex-col gap-2 items-center '>
             <div className='w-[60rem] h-full flex flex-col items-center  gap-5 '>
-                <h1 className='text-7xl font-bold text-[#ECF1E5]'>RegisRuta</h1>
+                <h1 className='text-2xl font-bold text-[#1F4E85]'>RegisRuta</h1>
                 <div className='mx-10'>
                     <p className='text-center text-xl text-[#1F4E85] font-semibold'>
                         Aborda los desafíos tradicionales en la gestión de ﬂotas al proporcionar
