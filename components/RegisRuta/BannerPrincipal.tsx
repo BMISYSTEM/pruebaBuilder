@@ -350,7 +350,7 @@ export const BannerPrincipal = () => {
                                 consumo de combustible, inicio y ﬁn de la operación, disminuye recurso humano
                                 utilizado actualmente en operaciones manuales.</p>
                             <p className='text-[#1F4E85] text-sm'>Obten la información en tiempo real, sin manipulaciones para gestionar
-                            estratégicamente tu ﬂota y convierte todo esto en mayor rentabilidad.   </p>
+                            estratégicamente tu ﬂota y convierte todo esto en mayor rentabilidad.    </p>
                         </div>
                     </div>
                 </section>
