@@ -15,7 +15,6 @@ import ben2 from './assets/ben2.png'
 import ben3 from './assets/ben3.png'
 import ben4 from './assets/ben4.png'
 import ben5 from './assets/ben5.png'
-import animacion from './assets/animacion.gif'
 import eficiencia from './assets/eficiencia.png'
 const responsive = {
     superLargeDesktop: {
@@ -307,7 +306,18 @@ export const BannerPrincipal = () => {
                 {/* beneficios */}
                 <section className='w-full flex flex-row gap-5 mt-10'>
                     <div className='w-1/3 flex items-center'>
-                        <Image src={animacion} alt='animacion' width={1290} height={1000 } className='w-96 h-auto'/>
+                   
+                      <video controls width="640" height="360" autoPlay={true} muted
+                        loop
+                        playsInline  >
+                        <source
+                            src="https://res.cloudinary.com/drfsgwnql/video/upload/v1747067046/hhyqp6ntn93bkeyiuw00.mp4"
+                            type="video/mp4"
+                            
+                        />
+                        Tu navegador no soporta el video.
+                    </video>  
+                        
                     </div>
                     <div className='w-2/3 flex flex-col gap-5'>
                         <div className='border border-[#1F4E85] rounded-xl p-2' >

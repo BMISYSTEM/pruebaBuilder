@@ -135,3 +135,14 @@ body {
       transform: translateX(0);
   }
 }
+video::-webkit-media-controls {
+  display: none !important;  /* Chrome, Safari, etc. */
+}
+
+video::-moz-media-controls {
+  display: none !important;  /* Firefox */
+}
+
+video::-ms-media-controls {
+  display: none !important;  /* Internet Explorer */
+}
