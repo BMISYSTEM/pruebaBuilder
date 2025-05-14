@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -7,17 +7,78 @@ import { usePathname } from "next/navigation";
 import logo from "./assets/logo.png";
 import logo2 from "./assets/logo2.png";
 import buscar from "./assets/buscar.png";
-
+interface Color{
+  text:string,
+  background:string,
+  select:string,
+  logo:StaticImageData,
+}
 export const Navar = () => {
   const page = usePathname()
   const [openProducts,setOpenProducts] = useState(false)
   const [scrollPosition, setScrollPosition] = useState({ x: 0, y: 0 });
+  const [color,setColor] = useState<Color>()
   const handleScroll = () => {
     setScrollPosition({
       x: window.scrollX,
       y: window.scrollY
     });
   };
+  useEffect(()=>{
+    switch (page) {
+      case "/":
+        setColor({
+          text:'text-white',
+          background:'bg-[#1f508f]/60 backdrop-blur-md',
+          select:'text-white',
+          logo:logo
+        })
+        break;
+      case "/nosotros":
+        setColor({
+          text:'text-[#1f508f]',
+          background:'backdrop-blur-md',
+          select:'text-white bg-[#1f508f] p-1 rounded-lg',
+          logo:logo2
+        })
+        break;
+      case "/regisdata":
+        setColor({
+          text:'text-[#1f508f]',
+          background:'bg-[#BCA5CC]/60 backdrop-blur-md',
+          select:'',
+          logo:logo2
+        })
+        break;
+      case "/regisruta":
+        setColor({
+          text:'text-[#1f508f]',
+          background:'bg-[#D9E3C9]/80 backdrop-blur-md',
+          select:'',
+          logo:logo2
+        })
+        break;
+      case "/regiscenter":
+        setColor({
+          text:'text-white',
+          background:'bg-[#7E0E2E]/60 backdrop-blur-md',
+          select:'',
+          logo:logo
+        })
+        break;
+      case "/contactenos":
+        setColor({
+          text:'text-[#1f508f]',
+          background:'bg-[#1f508f]/60 backdrop-blur-md',
+          select:'text-white bg-[#1f508f] p-1 rounded-lg',
+          logo:logo2
+        })
+        break;
+    
+      default:
+        break;
+    }
+  },[page])
   useEffect(()=>{
     window.addEventListener('scroll', handleScroll);
 
@@ -26,18 +87,19 @@ export const Navar = () => {
     };
   },[])
   return (
-    <nav className={`transition duration-150 ${page === "/" ? scrollPosition.y > 600 ? 'bg-[#1f508f]/60 backdrop-blur-md' : null : "backdrop-blur-xl" } fixed w-full flex flex-row py-2 gap-5 px-20 z-[99999] `}>
+    <nav className={`transition duration-150 ${scrollPosition.y > 600 ? color?.background  : "backdrop-blur-xl" } fixed w-full flex flex-row py-2 gap-5 px-20 z-[99999] `}>
       <Link href={'/'} className="w-[200px] ">
-        <Image src={page === "/" ? logo : logo2} alt="Logo Registel" width={100} height={25} />
+        <Image src={color?.logo ?? logo} alt="Logo Registel" width={100} height={25} />
       </Link>
       <ul className={`w-full flex flex-row gap-5 justify-start border-b-2 ${page === "/" ? "border-white" : "border-[#1f508f]" } p-0 items-center`}>
-        <li className={`${page === "/" ? "text-white " : "text-[#1f508f]"} font-semibold`}>
+        <li className={`${page === "/" ? color?.select :  color?.text} font-semibold`}>
            <Link href={'/'}>Inicio</Link> 
         </li>
-        <li className={`${page === "/" ? "text-white " : page === "/nosotros" ? "bg-[#1f508f] text-white py-1 px-3 rounded-sm" : "text-[#1f508f]" } font-semibold`}>
+        <li className={`${page === "/nosotros" ? color?.select :  color?.text} font-semibold`}>
             <Link href={'/nosotros'}>Nosotros</Link> 
         </li>
-        <li onMouseEnter={()=>setOpenProducts(true)} onMouseLeave={()=>setOpenProducts(false)} className={`${page === "/" ? "text-white " : "text-[#1f508f]"} font-semibold relative`}>
+        <li onMouseEnter={()=>setOpenProducts(true)} onMouseLeave={()=>setOpenProducts(false)}
+         className={`${ color?.text} font-semibold relative`}>
           <button  className="flex flex-row gap-0.5 items-center">
             <p>Productos y Servicios</p>
             <div className="w-4 h-4 m-0 p-0">
@@ -94,7 +156,7 @@ export const Navar = () => {
             null
           }
         </li>
-        <li className={`${page === "/" ? "text-white " : page === "/contactenos" ? "bg-[#1f508f] text-white py-1 px-3 rounded-sm" : "text-[#1f508f]" } font-semibold`}>
+        <li className={`${page === "/contactenos" ? color?.select :  color?.text} font-semibold`}>
             <Link href={'/contactenos'}>Contactenos</Link>
         </li>
       </ul>

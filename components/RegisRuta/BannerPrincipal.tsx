@@ -39,7 +39,7 @@ export const BannerPrincipal = () => {
   return (
     <>
     {/* banner principal */}
-        <section className='w-full h-[70vh] flex flex-row px-[8.5rem]  justify-center bg-[#D9E3C9]'>
+        <section className='w-full h-[60vh] flex flex-row px-[8.5rem]  justify-center bg-[#D9E3C9]'>
             <div className='w-[30rem]  h-full flex flex-col gap-2 justify-end pb-10  '>
                 <h1 className='text-3xl font-extrabold text-[#1F4E85]'>RegisRuta</h1>
                 <p className='text-xl text-[#1F4E85] font-medium'>
@@ -93,7 +93,7 @@ export const BannerPrincipal = () => {
             </div>
         </section>
         {/*  caracteristicas*/}
-        <section className='w-full h-screen flex flex-col gap-2 items-center  mt-20'>
+        <section className='w-full h-auto flex flex-col gap-2 items-center  mt-20'>
             <div className='w-[60rem] flex flex-col gap-5'>
                 <h2 className='text-5xl font-bold text-[#1F4E85]'>Características</h2>
                 <div className='w-full flex flex-row h-auto gap-2'>
@@ -135,78 +135,80 @@ export const BannerPrincipal = () => {
             </div>
         </section>
         {/* modulos carrousel */}
-        <section className='w-full h-screen  mt-20 bg-[#DFE8CF] px-[8.5rem] pt-10'>
-            <Carousel 
-                 responsive={responsive}
-                 autoPlay={true}
-                 swipeable={true}
-                 draggable={true}
-                 showDots={true}
-                 infinite={true}
-                 partialVisible={false}
-                 dotListClass="custom-dot-list-style"
-            >
-                <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
-                    <div className='w-full h-1/3 flex items-center'>
-                        <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
+        <section className='w-full h-screen  mt-20 bg-[#DFE8CF] px-[8.5rem] pt-10 flex items-center justify-center'>
+            <div className='w-[70rem]'>
+                <Carousel 
+                    responsive={responsive}
+                    autoPlay={true}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={true}
+                    infinite={true}
+                    partialVisible={false}
+                    dotListClass="custom-dot-list-style"
+                >
+                    <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
+                        <div className='w-full h-1/3 flex items-center'>
+                            <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
+                        </div>
+                        <div className='w-full flex flex-col gap-2'>
+                            <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Reportes</h3>
+                            <p className='text-[#1F4E85]'>
+                                Ofrece una visión completa de la
+                                liquidación, productividad y
+                                comportamiento operativo. Desde
+                                detalles sobre liquidaciones y
+                                descuentos hasta informes sobre
+                                mantenimiento despachos de
+                                vehículos, producción por
+                                conductor, etc. Este módulo
+                                proporciona información clave
+                                para optimizar la operación y
+                                mejorar la eﬁciencia en el servicio
+                                de transporte.
+                            </p>
+                            <p className='text-[#1F4E85] text-sm font-bold'>Liquidación, General, Consolidado
+                            de rutas, Conductor, Auditorias</p>
+                        </div>
                     </div>
-                    <div className='w-full flex flex-col gap-2'>
-                        <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Reportes</h3>
-                        <p className='text-[#1F4E85]'>
-                            Ofrece una visión completa de la
-                            liquidación, productividad y
-                            comportamiento operativo. Desde
-                            detalles sobre liquidaciones y
-                            descuentos hasta informes sobre
-                            mantenimiento despachos de
-                            vehículos, producción por
-                            conductor, etc. Este módulo
-                            proporciona información clave
-                            para optimizar la operación y
-                            mejorar la eﬁciencia en el servicio
-                            de transporte.
-                        </p>
-                        <p className='text-[#1F4E85] text-sm font-bold'>Liquidación, General, Consolidado
-                        de rutas, Conductor, Auditorias</p>
+                    <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
+                        <div className='w-full h-1/3 flex items-center'>
+                            <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
+                        </div>
+                        <div className='w-full flex flex-col gap-2'>
+                            <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Rastreo</h3>
+                            <p className='text-[#1F4E85]'>
+                                Visualiza opciones clave por
+                                vehículo o ﬂota, ya sea de forma
+                                gráﬁca o en tablas. Desde puntos
+                                de control hasta pasajeros
+                                ingresados, alarmas, imágenes y
+                                eventos, obtén una visión
+                                completa de tus activos.
+                            </p>
+                            <p className='text-[#1F4E85] text-sm font-bold'></p>
+                        </div>
                     </div>
-                </div>
-                <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
-                    <div className='w-full h-1/3 flex items-center'>
-                        <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
+                    <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
+                        <div className='w-full h-1/3 flex items-center'>
+                            <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
+                        </div>
+                        <div className='w-full flex flex-col gap-2'>
+                            <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Auditorias</h3>
+                            <p className='text-[#1F4E85]'>
+                                Registra todas las novedades
+                                en la aplicación, registrando
+                                cualquier modiﬁcación o
+                                intervención en los diferentes
+                                módulos y dejando constancia
+                                del funcionario que la ejecutó.
+                            </p>
+                            <p className='text-[#1F4E85] text-sm font-bold'></p>
+                        </div>
                     </div>
-                    <div className='w-full flex flex-col gap-2'>
-                        <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Rastreo</h3>
-                        <p className='text-[#1F4E85]'>
-                            Visualiza opciones clave por
-                            vehículo o ﬂota, ya sea de forma
-                            gráﬁca o en tablas. Desde puntos
-                            de control hasta pasajeros
-                            ingresados, alarmas, imágenes y
-                            eventos, obtén una visión
-                            completa de tus activos.
-                        </p>
-                        <p className='text-[#1F4E85] text-sm font-bold'></p>
-                    </div>
-                </div>
-                <div className='w-80 h-[35rem] bg-white  rounded-xl shadow-xl py-2 px-4 flex flex-col gap-2'>
-                    <div className='w-full h-1/3 flex items-center'>
-                        <Image alt='imagen de modulo 1' src={modulo1} width={1290} height={1000} className='w-full h-auto'/>
-                    </div>
-                    <div className='w-full flex flex-col gap-2'>
-                        <h3 className='text-3xl text-center font-bold text-[#1F4E85]'>Modulo Auditorias</h3>
-                        <p className='text-[#1F4E85]'>
-                            Registra todas las novedades
-                            en la aplicación, registrando
-                            cualquier modiﬁcación o
-                            intervención en los diferentes
-                            módulos y dejando constancia
-                            del funcionario que la ejecutó.
-                        </p>
-                        <p className='text-[#1F4E85] text-sm font-bold'></p>
-                    </div>
-                </div>
-                
-            </Carousel>
+                    
+                </Carousel>
+            </div>
         </section>
         {/* beneficios  */}
         <section className='w-full h-auto flex justify-center mt-20'>
