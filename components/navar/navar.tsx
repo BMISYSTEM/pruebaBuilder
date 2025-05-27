@@ -66,6 +66,14 @@ export const Navar = () => {
           logo:logo
         })
         break;
+      case "/regisbus":
+        setColor({
+          text:'text-white',
+          background:'bg-[#1F4E85]/60 backdrop-blur-md',
+          select:'',
+          logo:logo
+        })
+        break;
       case "/contactenos":
         setColor({
           text:'text-[#1f508f]',
