@@ -74,12 +74,12 @@ export const Navar = () => {
           logo:logo
         })
         break;
-      case "/contactenos":
+      case "/cst":
         setColor({
-          text:'text-[#1f508f]',
-          background:'bg-[#1f508f]/60 backdrop-blur-md',
+          text:'text-white',
+          background:'bg-[#ED9B15]/60 backdrop-blur-md',
           select:'text-white bg-[#1f508f] p-1 rounded-lg',
-          logo:logo2
+          logo:logo
         })
         break;
     
