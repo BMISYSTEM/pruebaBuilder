@@ -82,7 +82,6 @@ export const Navar = () => {
           logo:logo
         })
         break;
-    
       default:
         break;
     }
