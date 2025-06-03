@@ -173,7 +173,7 @@ export const BannerPrincipal = () => {
           </p>
           <div className="w-full flex flex-row gap-5">
             <button className="py-2 px-5 rounded-4xl bg-white mt-5">
-              <p>Hola andrea</p>
+              <p>Hola andrea nn</p>
             </button>
           </div>
         </div>
