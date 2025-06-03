@@ -17,21 +17,21 @@ export const Footer = () => {
           <div className='md:w-[30rem] w-full flex flex-row justify-center '>
             <div className='flex flex-col gap-2 px-5 border-r-2 border-white'>
               <Link href={'/'}>
-                <p className='text-white text-lg font-light'>RegisBus</p>
+                <p className='text-white md:text-lg text-sm font-light'>RegisBus</p>
               </Link>
               <Link href={'/'}>
-                <p className='text-white text-lg font-light'>RegisCenter</p>
+                <p className='text-white md:text-lg text-sm font-light'>RegisCenter</p>
               </Link>
               <Link href={'/'}>
-                <p className='text-white text-lg font-light'>RegisRuta</p>
+                <p className='text-white md:text-lg text-sm font-light'>RegisRuta</p>
               </Link>
               <Link href={'/'}>
-                <p className='text-white text-lg font-light'>VideoBus</p>
+                <p className='text-white md:text-lg text-sm font-light'>VideoBus</p>
               </Link>
             </div>
             <div className='w-full flex flex-col gap-2 px-5'>
-              <p className='text-white font-light text-lg'>+57 316 403 6607</p>
-              <p className='text-white font-light text-lg'>gerencia@registelcolombia.com</p>
+              <p className='text-white font-light md:text-lg text-sm'>+57 316 403 6607</p>
+              <p className='text-white font-light md:text-lg text-sm'>gerencia@registelcolombia.com</p>
             </div>
           </div>
           <div className='md:w-[30rem] w-full mt-10 px-5'>
