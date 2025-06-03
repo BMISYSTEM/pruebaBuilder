@@ -205,28 +205,28 @@ export const Navar = () => {
               <div className=" ">
                 <p className="text-2xl font-bold text-[#1f508f]">Productos y servicios</p>
                 <Link href={'/regisdata'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->RegisData</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">RegisData</p>
                 </Link>
                 <Link href={'/regisruta'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->RegisRuta</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">RegisRuta</p>
                 </Link>
                 <Link href={'/regiscenter'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->RegisCenter</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">RegisCenter</p>
                 </Link>
                 <Link href={'/regisbus'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->RegisBus</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">RegisBus</p>
                 </Link>
                 <Link href={'/cst'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->CST</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">CST</p>
                 </Link>
                 <Link href={'/videobus'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->VideoBus</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">VideoBus</p>
                 </Link>
                 <Link href={'/regischeck'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->RegisCheck</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">RegisCheck</p>
                 </Link>
                 <Link href={'/siconder'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-lg font-semibold text-[#1f508f] px-5">-->Siconder</p>
+                  <p className="text-lg font-semibold text-[#1f508f] px-5">Siconder</p>
                 </Link>
               </div>
               <Link href={'/contactenos'} className="border border-slate-200 p-2 rounded-xl">
