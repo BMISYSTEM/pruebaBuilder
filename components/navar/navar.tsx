@@ -197,40 +197,40 @@ export const Navar = () => {
       <nav className={`${openMenu ? 'flex ' : 'hidden'} w-full  flex-row fixed h-screen bg-black/40  z-[9999999]`}>
             <section className={`animate__animated  ${animateClose === "hidden" ? openMenu ? 'w-3/4 animate__fadeInLeft' : null : animateClose}  bg-white h-full flex flex-col gap-5 px-5 pt-10`}>
               <Link href={'/'} className="border border-slate-200 p-2 rounded-xl">
-                <p className="text-2xl font-semibold text-[#1f508f]">Incio</p>
+                <p className="text-xl font-semibold text-[#1f508f]">Incio</p>
               </Link>
               <Link href={'/nosotros'} className="border border-slate-200 p-2 rounded-xl">
-                <p className="text-2xl font-semibold text-[#1f508f]">Nosotros</p>
+                <p className="text-xl font-semibold text-[#1f508f]">Nosotros</p>
               </Link>
               <div className=" ">
                 <p className="text-2xl font-bold text-[#1f508f]">Productos y servicios</p>
                 <Link href={'/regisdata'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}RegisData</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}RegisData</p>
                 </Link>
                 <Link href={'/regisruta'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}RegisRuta</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}RegisRuta</p>
                 </Link>
                 <Link href={'/regiscenter'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}RegisCenter</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}RegisCenter</p>
                 </Link>
                 <Link href={'/regisbus'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}RegisBus</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}RegisBus</p>
                 </Link>
                 <Link href={'/cst'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}CST</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}CST</p>
                 </Link>
                 <Link href={'/videobus'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}VideoBus</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}VideoBus</p>
                 </Link>
                 <Link href={'/regischeck'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}RegisCheck</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}RegisCheck</p>
                 </Link>
                 <Link href={'/siconder'} className="border border-slate-200 p-2 rounded-xl">
-                  <p className="text-2xl font-semibold text-[#1f508f] px-5">{'-->'}Siconder</p>
+                  <p className="text-xl font-semibold text-[#1f508f] px-5">{'-->'}Siconder</p>
                 </Link>
               </div>
               <Link href={'/contactenos'} className="border border-slate-200 p-2 rounded-xl">
-                <p className="text-2xl font-semibold text-[#1f508f]">Contactenos</p>
+                <p className="text-xl font-semibold text-[#1f508f]">Contactenos</p>
               </Link>
             </section>
             <div className="w-1/4">
@@ -238,7 +238,7 @@ export const Navar = () => {
               </button>
             </div>
       </nav>
-      <div className="fixed top-5 md:hidden z-[99999999999999999]">
+      <div className={`${openMenu ? 'hidden' : null} fixed  top-5 md:hidden z-[99999999999999999]`}>
         <button onClick={()=>setOpenMenu(!openMenu)} className="w-12 h-12 flex items-center justify-center bg-white right-0 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
             <path fillRule="evenodd" d="M3 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 5.25Zm0 4.5A.75.75 0 0 1 3.75 9h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9.75Zm0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Zm0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clipRule="evenodd" />
