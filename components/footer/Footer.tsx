@@ -12,9 +12,9 @@ export const Footer = () => {
     <footer className='w-full h-auto flex flex-col items-center justify-center '>
       {/* mensaje */}
      
-      <div className='w-full bg-[#36508C] h-auto mt-20 pb-5 flex flex-row px-[8.5rem] pt-10'>
+      <div className='w-full bg-[#36508C] h-auto MD:mt-20 mt-10 pb-5 gap-5 flex md:flex-row flex-col md:px-[8.5rem] pt-10'>
         <div className='w-full flex flex-col items-center '>
-          <div className='w-[30rem] flex flex-row justify-center '>
+          <div className='md:w-[30rem] w-full flex flex-row justify-center '>
             <div className='flex flex-col gap-2 px-5 border-r-2 border-white'>
               <Link href={'/'}>
                 <p className='text-white text-lg font-light'>RegisBus</p>
@@ -34,7 +34,7 @@ export const Footer = () => {
               <p className='text-white font-light text-lg'>gerencia@registelcolombia.com</p>
             </div>
           </div>
-          <div className='w-[30rem] mt-10 px-5'>
+          <div className='md:w-[30rem] w-full mt-10 px-5'>
             <p className='text-xs text-white font-light'>2023 Registel S.A.S. - Todos los derechos reservados <br/>
             Este sitio web ha sido creado y es administrado por Registel.co</p>
           </div>

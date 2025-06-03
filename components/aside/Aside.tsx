@@ -12,7 +12,7 @@ import rdw from './assets/rdw.svg'
 export const Aside = () => {
     const [asideVisible,setAsideVisible] = useState(true)
   return (
-        <aside className='w-20 h-screen  fixed right-0 z-[89] '>
+        <aside className='w-20 h-screen  md:fixed hidden right-0 z-[89] '>
             <div className='relative  h-screen w-16  '>
                 <button onClick={()=>setAsideVisible(!asideVisible)}
                     className={` transition duration-100 ${asideVisible ? '' : 'left-[93%] '}  w-10 cursor-pointer   absolute top-[50%] rounded-full h-10`}>
