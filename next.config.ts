@@ -5,9 +5,14 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com', // o el dominio externo que uses
-        pathname: '/**',
+        protocol: "https",
+        hostname: "res.cloudinary.com", // o el dominio externo que uses
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.builder.io",
+        pathname: "/**",
       },
     ],
   },
