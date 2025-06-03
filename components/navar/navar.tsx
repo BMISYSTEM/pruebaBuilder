@@ -204,32 +204,32 @@ export const Navar = () => {
               </Link>
               <div className=" ">
                 <p className="text-2xl font-bold text-[#1f508f]">Productos y servicios</p>
-                <Link href={'/regisdata'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/regisdata'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">RegisData</p>
                 </Link>
-                <Link href={'/regisruta'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/regisruta'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">RegisRuta</p>
                 </Link>
-                <Link href={'/regiscenter'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/regiscenter'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">RegisCenter</p>
                 </Link>
-                <Link href={'/regisbus'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/regisbus'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">RegisBus</p>
                 </Link>
-                <Link href={'/cst'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/cst'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">CST</p>
                 </Link>
-                <Link href={'/videobus'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/videobus'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">VideoBus</p>
                 </Link>
-                <Link href={'/regischeck'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/regischeck'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">RegisCheck</p>
                 </Link>
-                <Link href={'/siconder'} className="border border-slate-200 p-2 rounded-xl">
+                <Link href={'/siconder'} className="border-b border-slate-200 p-2 rounded-xl">
                   <p className="text-lg font-semibold text-[#1f508f] px-5">Siconder</p>
                 </Link>
               </div>
-              <Link href={'/contactenos'} className="border border-slate-200 p-2 rounded-xl">
+              <Link href={'/contactenos'} className="border-b border-slate-200 p-2 rounded-xl">
                 <p className="text-lg font-semibold text-[#1f508f]">Contactenos</p>
               </Link>
             </section>
