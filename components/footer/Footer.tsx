@@ -39,11 +39,11 @@ export const Footer = () => {
             Este sitio web ha sido creado y es administrado por Registel.co</p>
           </div>
         </div>
-        <div className='w-full flex flex-col  items-center'>
-          <p className='text-lg text-white font-light p-0 mt-0'>Carrera 8a A No. 34 - 25</p>
-          <p className='text-lg text-white font-light p-0 mt-0'>Cali, Colombia</p>
-          <p className='text-lg text-white font-light p-0 mt-0'>Phone: (572) 441-5840</p>
-          <p className='text-lg text-white font-light p-0 mt-0'>Fax: (572) 371-9131</p>
+        <div className='w-full flex flex-col  items-center px-2'>
+          <p className='md:text-lg text-sm text-white font-light p-0 mt-0'>Carrera 8a A No. 34 - 25</p>
+          <p className='md:text-lg text-sm text-white font-light p-0 mt-0'>Cali, Colombia</p>
+          <p className='md:text-lg text-sm text-white font-light p-0 mt-0'>Phone: (572) 441-5840</p>
+          <p className='md:text-lg text-sm text-white font-light p-0 mt-0'>Fax: (572) 371-9131</p>
           <div className='w-full flex flex-row gap-2 justify-center mt-5'>
             <Image src={youtube} alt='youtube' width={40} height={40}/>
             <Image src={facebook} alt='facebook' width={40} height={40}/>

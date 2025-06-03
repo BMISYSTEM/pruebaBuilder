@@ -263,7 +263,7 @@ export const BannerPrincipal = () => {
             </div>
       </section>
        {/* modulos carrousel */}
-        <section className='w-full h-auto mt-20 bg-[#DFE8CF] md:px-[8.5rem] md:pt-10 flex items-center justify-center'>
+        <section className='w-full h-auto mt-20 bg-[#DFE8CF] md:px-[8.5rem] md:pt-10 flex items-center justify-center '>
             <div className='md:w-[70rem] w-full  p-10'>
                 <Carousel 
                     responsive={responsive}
