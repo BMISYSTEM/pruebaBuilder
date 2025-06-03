@@ -181,7 +181,7 @@ export const BannerPrincipal = () => {
       <section className='w-full flex items-center justify-center md:mt-40 mt-20'>
             <div className='md:w-[60rem] w-full flex md:flex-row flex-col gap-5'>
                 <div className='w-full flex justify-center'>
-                    <Image src={ch7} alt='imagen de regischeck' width={1290} className='w-96 object-contain' />
+                    <Image src={ch7} alt='imagen de regischeck' width={1000} className='md:w-96 w-full object-contain' />
                 </div>
                 <div className='w-full flex md:flex-row flex-col gap-2 md:p-0 p-2'>
                     <div className='w-full flex flex-col gap-5 '>
@@ -214,7 +214,7 @@ export const BannerPrincipal = () => {
       </section>
       <section className='w-full flex items-center justify-center md:mt-40 mt-20'>
             <div className='md:w-[60rem] w-full flex md:flex-row flex-col  items-center'>
-                <div className='w-[30rem] flex items-start md:justify-start justify-center '>
+                <div className='md:w-[30rem] w-full flex items-start md:justify-start justify-center '>
                     <Image src={ch8} alt='ruta registel' width={1290} className='w-96 '/>
                 </div>
                 <div className='md:w-[30rem] w-full md:p-0 p-2'>
