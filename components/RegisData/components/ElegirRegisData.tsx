@@ -148,7 +148,7 @@ export const ElegirRegisData = () => {
         <div className="w-[30rem] flex flex-col relative ">
           <div className="z-30">
             <h4 className="text-3xl  text-[#1f4e85] font-extrabold">
-              ¿Para Quién Es Ideal Regisdata?
+              ¿Para Quién Es Ideal Regisdata?.
             </h4>
             <p className="text-2xl font-light text-[#1f4e85]">
               Regisdata es perfecto para empresas en diversos sectores, tales
@@ -661,7 +661,7 @@ export const ElegirRegisData = () => {
         </div>
         <div className="w-full  flex flex-row items-center justify-center">
           <p className="text-2xl font-bold text-center text-[#bba4cb] ">
-            Informaci��n en cualquier <br />
+            Información en cualquier <br />
             parte del mundo
           </p>
         </div>
