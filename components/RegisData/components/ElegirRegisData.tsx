@@ -676,8 +676,26 @@ export const ElegirRegisData = () => {
         </div>
       </section>
       {/* video Regisdata Comercial */}
-      <section className="w-full h-screen bg-[#bba4cb] mt-5">
+      <section className="w-full bg-[#bba4cb] mt-5 h-[639px]">
         <p>video</p>
+        <div className="flex flex-col relative mt-5 min-h-5 min-w-5 w-full">
+          <div className="relative">
+            <video
+              autoPlay={true}
+              muted={true}
+              controls={false}
+              playsInline={true}
+              loop={true}
+              className="w-full h-full object-cover object-center rounded relative flex flex-col mt-5 min-h-5 min-w-5"
+            >
+              <source
+                type="video/mp4"
+                src="https://cdn.builder.io/o/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fd27731a526464deba0016216f5f9e570%2Fcompressed?apiKey=YJIGb4i01jvw0SRdL5Bt&token=d27731a526464deba0016216f5f9e570&alt=media&optimized=true"
+              />
+            </video>
+            <div className="w-full pt-[70.04048582995948%] pointer-events-none text-[0]" />
+          </div>
+        </div>
       </section>
       {/* modulos peque */}
       <section className="w-full h-auto flex flex-col gap-5 pt-20">
