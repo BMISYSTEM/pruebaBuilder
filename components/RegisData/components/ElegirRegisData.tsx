@@ -477,7 +477,7 @@ export const ElegirRegisData = () => {
           </DivAnimateLefth>
           <div className="w-[40rem] h-auto flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
-              Modulo Indicadores
+              Modulo Indicadores.
             </h6>
             <div>
               <DivAnimateRigth className="p-5 rounded-[4rem] border-2 border-[#bba4cb] text-[#1f4e85] px-10">
