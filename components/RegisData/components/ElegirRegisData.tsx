@@ -248,7 +248,7 @@ export const ElegirRegisData = () => {
           </div>
           <DivAnimateRigth className="w-[40rem] h-full flex flex-col gap-5">
             <h5 className="text-6xl font-extrabold text-[#1f4e85]">
-              Modulo Reportes
+              Modulo Reportes.
             </h5>
             <div>
               <div className="p-5 rounded-xl bg-[#bba4cb] text-white px-10">
