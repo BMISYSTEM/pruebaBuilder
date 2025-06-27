@@ -305,7 +305,7 @@ export const ElegirRegisData = () => {
           </DivAnimateLefth>
           <div className="w-[40rem] h-full flex flex-col gap-5">
             <h6 className="text-6xl font-extrabold text-[#1f4e85]">
-              Modulo Rastreo
+              Modulo Rastreo.
             </h6>
             <div>
               <DivAnimateRigth className="p-5 rounded-xl border-2 border-[#bba4cb] text-[#1f4e85] px-10">
