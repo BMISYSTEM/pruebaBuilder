@@ -186,11 +186,13 @@ export const ElegirRegisData = () => {
           </div>
         </div>
       </section>
-      <img
-        loading="lazy"
-        srcSet="https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937"
-        className="aspect-video object-cover object-center w-full mt-5 min-h-5 min-w-5 overflow-hidden"
-      />
+      <section className="w-full mt-5">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937"
+          className="aspect-video object-cover object-center w-full min-h-5 min-w-5 overflow-hidden"
+        />
+      </section>
       {/* modulo de reporte */}
       <section className="w-full  h-auto flex  md:px-[8.5rem] px-2 pt-20 ">
         <div className="w-full h-full flex md:flex-row justify-center flex-col-reverse gap-2  ">
