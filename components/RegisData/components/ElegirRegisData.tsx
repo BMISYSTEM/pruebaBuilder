@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { motion, useInView, useScroll } from "motion/react"
+import { motion, useInView, useScroll } from "motion/react";
 import img3 from "../assets/img3.png";
 import img4 from "../assets/img4.png";
 import img5 from "../assets/img5.png";
@@ -45,7 +45,7 @@ import dispositivos from "../assets/dispositivos.png";
 import { DivAnimateRigth } from "@/components/Globales/DivAnimateRigth";
 import { DivAnimateLefth } from "@/components/Globales/DivAnimateLefth";
 export const ElegirRegisData = () => {
-    const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll();
   return (
     <>
       <section className="w-full px-[8.5rem] flex flex-col gap-5 pt-40 ">
@@ -59,12 +59,13 @@ export const ElegirRegisData = () => {
           plataforma es fácil de usar y se adapta a tus necesidades
         </p>
         <div className="w-full h-full flex flex-row  justify-center items-center ">
-          <motion.div 
-             initial={{ x: -100,opacity:0 }}
-             whileInView={{ opacity: 1, y: 0,x: 0}}
-             viewport={{ once: false, amount: 0.2 }}
-             transition={{ duration: 0.6 }}
-            className="w-full flex gap-2 items-end justify-end ">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0, x: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 0.6 }}
+            className="w-full flex gap-2 items-end justify-end "
+          >
             <Image
               alt="Imagen de computador"
               src={img3}
@@ -73,11 +74,14 @@ export const ElegirRegisData = () => {
               className="w-96 object-contain"
             />
           </motion.div>
-          <DivAnimateRigth porcentajeDiv={0.2}  className="w-full h-full flex justify-start items-center  ">
+          <DivAnimateRigth
+            porcentajeDiv={0.2}
+            className="w-full h-full flex justify-start items-center  "
+          >
             <p className="text-xl font-bold text-[#bba4cb] animatexView mb-30">
               SISTEMA ADAPTABLE <br />A DIFERENTES DISPOSITIVOS
             </p>
-          </DivAnimateRigth >
+          </DivAnimateRigth>
         </div>
       </section>
       <section className="w-full px-[8.5rem] flex flex-row gap-5  items-center justify-center relative ">
@@ -130,7 +134,10 @@ export const ElegirRegisData = () => {
       </section>
       {/* para quien es ideal  */}
       <section className="w-full h-screen flex flex-row gap-2 px-[8.5rem] overflow-hidden items-center justify-center ">
-        <DivAnimateLefth porcentajeDiv={0.5} className="w-[30rem] h-96 flex flex-col  ">
+        <DivAnimateLefth
+          porcentajeDiv={0.5}
+          className="w-[30rem] h-96 flex flex-col  "
+        >
           <Image
             src={img6}
             alt="Imagen de computador mostrando pantallas flotantes"
@@ -179,15 +186,16 @@ export const ElegirRegisData = () => {
           </div>
         </div>
       </section>
-      {/* video seccion  */}
-      <section className="w-full h-screen bg-[#1f4e85] flex flex-col items-center justify-center">
-        <p>Video </p>
-      </section>
+      <img
+        loading="lazy"
+        srcSet="https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F612919aa72624f9a8934989ea5a7fe03%2F5d570ecb2019479c96e525665bf94937"
+        className="aspect-video object-cover object-center w-full mt-5 min-h-5 min-w-5 overflow-hidden"
+      />
       {/* modulo de reporte */}
       <section className="w-full  h-auto flex  md:px-[8.5rem] px-2 pt-20 ">
         <div className="w-full h-full flex md:flex-row justify-center flex-col-reverse gap-2  ">
           <div className="md:w-[40rem] w-full flex flex-col mt-20">
-            <DivAnimateLefth  className=" right-2 z-30">
+            <DivAnimateLefth className=" right-2 z-30">
               <Image
                 src={img8}
                 alt="imagen de modulo de reportes"
@@ -593,7 +601,6 @@ export const ElegirRegisData = () => {
       {/* modulo de Conﬁguración */}
       <section className="w-full  flex  px-[8.5rem] pt-20 ">
         <div className="w-full h-full flex flex-row gap-2 justify-center ">
-
           <DivAnimateRigth className="w-[40rem] flex flex-col  ">
             <div className=" mr-[-2rem] z-30  flex justify-end">
               <Image
@@ -635,13 +642,13 @@ export const ElegirRegisData = () => {
             height={100}
             className="absolute top-32 right-[35%] "
           />
-            <Image
-                src={ventana2}
-                alt="aro flotando"
-                width={100}
-                height={100}
-                className="absolute top-1 right-[45%] animatexView"
-            />
+          <Image
+            src={ventana2}
+            alt="aro flotando"
+            width={100}
+            height={100}
+            className="absolute top-1 right-[45%] animatexView"
+          />
           <Image
             src={ventana3}
             alt="aro flotando"
@@ -672,148 +679,148 @@ export const ElegirRegisData = () => {
       </section>
       {/* modulos peque */}
       <section className="w-full h-auto flex flex-col gap-5 pt-20">
-      <section className="w-full  flex flex-col gap-5  px-[8.5rem] pt-20 ">
-        <div className="w-full h-full flex flex-row gap-2  items-center justify-center  ">
-          <div className="w-[40rem] flex flex-col ">
-            <div className=" mr-[-3rem] z-30  flex justify-end">
-              <Image
-                src={inicio}
-                alt="imagen de modulo de reportes"
-                width={300}
-                height={200}
-                className=""
-              />
+        <section className="w-full  flex flex-col gap-5  px-[8.5rem] pt-20 ">
+          <div className="w-full h-full flex flex-row gap-2  items-center justify-center  ">
+            <div className="w-[40rem] flex flex-col ">
+              <div className=" mr-[-3rem] z-30  flex justify-end">
+                <Image
+                  src={inicio}
+                  alt="imagen de modulo de reportes"
+                  width={300}
+                  height={200}
+                  className=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-[40rem] h-full flex flex-col gap-5">
-            <div>
-              <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
-                <h6 className="text-3xl font-extrabold text-[#1f4e85]">
+            <div className="w-[40rem] h-full flex flex-col gap-5">
+              <div>
+                <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
+                  <h6 className="text-3xl font-extrabold text-[#1f4e85]">
                     Modulo Inicio
-                </h6>
-                <p className="text-xl text-[#1f4e85]">
-                  {" "}
+                  </h6>
+                  <p className="text-xl text-[#1f4e85]">
+                    {" "}
                     Visualiza el general de cada dispositivo de tu negocio de
                     manera fácil, por produccion y ultimo evento reportado.
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
-          <div className="w-[40rem] flex flex-col ">
-            <div className=" mr-[-3rem] z-30  flex justify-end">
-              <Image
-                src={reportes}
-                alt="imagen de modulo de reportes"
-                width={300}
-                height={200}
-                className=""
-              />
+          <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+            <div className="w-[40rem] flex flex-col ">
+              <div className=" mr-[-3rem] z-30  flex justify-end">
+                <Image
+                  src={reportes}
+                  alt="imagen de modulo de reportes"
+                  width={300}
+                  height={200}
+                  className=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-[40rem] h-full flex flex-col gap-5">
-            <div>
-              <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
-                <h6 className="text-3xl font-extrabold text-[#1f4e85]">
+            <div className="w-[40rem] h-full flex flex-col gap-5">
+              <div>
+                <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
+                  <h6 className="text-3xl font-extrabold text-[#1f4e85]">
                     Modulo Reportes
-                </h6>
-                <p className="text-xl text-[#1f4e85]">
-                  {" "}
+                  </h6>
+                  <p className="text-xl text-[#1f4e85]">
+                    {" "}
                     Ofrece una visión completa de la liquidación, productividad
                     y comportamiento operativo. Desde detalles sobre traﬁco
                     diario hasta analisis de IA
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
-          <div className="w-[40rem] flex flex-col ">
-            <div className=" mr-[-3rem] z-30  flex justify-end">
-              <Image
-                src={graficos}
-                alt="imagen de modulo de reportes"
-                width={300}
-                height={200}
-                className=""
-              />
+          <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+            <div className="w-[40rem] flex flex-col ">
+              <div className=" mr-[-3rem] z-30  flex justify-end">
+                <Image
+                  src={graficos}
+                  alt="imagen de modulo de reportes"
+                  width={300}
+                  height={200}
+                  className=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-[40rem] h-full flex flex-col gap-5">
-            <div>
-              <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
-                <h6 className="text-3xl font-extrabold text-[#1f4e85]">
-                Modulo Gráﬁcos
-                </h6>
-                <p className="text-xl text-[#1f4e85]">
-                  {" "}
+            <div className="w-[40rem] h-full flex flex-col gap-5">
+              <div>
+                <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
+                  <h6 className="text-3xl font-extrabold text-[#1f4e85]">
+                    Modulo Gráﬁcos
+                  </h6>
+                  <p className="text-xl text-[#1f4e85]">
+                    {" "}
                     Permite visualizar información clave en gráﬁcos y tablas,
                     brindando una visión completa de tu negocio. Su módulo de
-                    inteligencia artiﬁcial mejora el análisis de datos, facilitando
-                    la toma de decisiones estratégicas para optimizar tus
-                    operaciones de transporte.
-                </p>
+                    inteligencia artiﬁcial mejora el análisis de datos,
+                    facilitando la toma de decisiones estratégicas para
+                    optimizar tus operaciones de transporte.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
-          <div className="w-[40rem] flex flex-col ">
-            <div className=" mr-[-3rem] z-30  flex justify-end">
-              <Image
-                src={usuarios}
-                alt="imagen de modulo de reportes"
-                width={300}
-                height={200}
-                className=""
-              />
+          <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center ">
+            <div className="w-[40rem] flex flex-col ">
+              <div className=" mr-[-3rem] z-30  flex justify-end">
+                <Image
+                  src={usuarios}
+                  alt="imagen de modulo de reportes"
+                  width={300}
+                  height={200}
+                  className=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-[40rem] h-full flex flex-col gap-5">
-            <div>
-              <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
-                <h6 className="text-3xl font-extrabold text-[#1f4e85]">
-                Modulo Usuario
-                </h6>
-                <p className="text-xl text-[#1f4e85]">
-                  {" "}
-                  Registra y administra las personas que tendran acceso a tu negocio
-                </p>
+            <div className="w-[40rem] h-full flex flex-col gap-5">
+              <div>
+                <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
+                  <h6 className="text-3xl font-extrabold text-[#1f4e85]">
+                    Modulo Usuario
+                  </h6>
+                  <p className="text-xl text-[#1f4e85]">
+                    {" "}
+                    Registra y administra las personas que tendran acceso a tu
+                    negocio
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center">
-          <div className="w-[40rem] flex flex-col ">
-            <div className=" mr-[-3rem] z-30  flex justify-end">
-              <Image
-                src={dispositivos}
-                alt="imagen de modulo de reportes"
-                width={300}
-                height={200}
-                className=""
-              />
+          <div className="w-full h-full flex flex-row gap-2  items-center mt-20 justify-center">
+            <div className="w-[40rem] flex flex-col ">
+              <div className=" mr-[-3rem] z-30  flex justify-end">
+                <Image
+                  src={dispositivos}
+                  alt="imagen de modulo de reportes"
+                  width={300}
+                  height={200}
+                  className=""
+                />
+              </div>
             </div>
-          </div>
-          <div className="w-[40rem] h-full flex flex-col gap-5">
-            <div>
-              <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
-                <h6 className="text-3xl font-extrabold text-[#1f4e85]">
-                Modulo Dispositivos
-                </h6>
-                <p className="text-xl text-[#1f4e85]">
-                  {" "}
-                  Gestiona el nombre adecuado para tener un control
-                  de cada establecimiento
-                </p>
+            <div className="w-[40rem] h-full flex flex-col gap-5">
+              <div>
+                <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
+                  <h6 className="text-3xl font-extrabold text-[#1f4e85]">
+                    Modulo Dispositivos
+                  </h6>
+                  <p className="text-xl text-[#1f4e85]">
+                    {" "}
+                    Gestiona el nombre adecuado para tener un control de cada
+                    establecimiento
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </section>
     </>
   );
 };
-
