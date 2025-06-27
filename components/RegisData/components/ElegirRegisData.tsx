@@ -50,7 +50,7 @@ export const ElegirRegisData = () => {
     <>
       <section className="w-full px-[8.5rem] flex flex-col gap-5 pt-40 ">
         <h2 className="text-5xl font-extrabold text-[#1f4e85] text-center">
-          ¿Por Qué Elegir Regisdata?
+          ¿Por Qué Elegir Regisdata?.
         </h2>
         <p className="text-2xl font-light text-[#1f4e85] text-center">
           Al usar Regisdata, obtienes una solución única que centraliza todas
@@ -661,7 +661,7 @@ export const ElegirRegisData = () => {
         </div>
         <div className="w-full  flex flex-row items-center justify-center">
           <p className="text-2xl font-bold text-center text-[#bba4cb] ">
-            Información en cualquier <br />
+            Informaci��n en cualquier <br />
             parte del mundo
           </p>
         </div>
