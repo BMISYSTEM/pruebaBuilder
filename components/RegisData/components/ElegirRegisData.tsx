@@ -808,7 +808,7 @@ export const ElegirRegisData = () => {
               <div>
                 <div className="p-5 rounded-[4rem] border-2 bg-[#bba4cb]/20 text-white px-10">
                   <h6 className="text-3xl font-extrabold text-[#1f4e85]">
-                    Modulo Dispositivos
+                    Modulo Dispositivos.
                   </h6>
                   <p className="text-xl text-[#1f4e85]">
                     {" "}
